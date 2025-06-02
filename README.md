@@ -209,7 +209,8 @@ No lag, no freeze, just smooth operator performance.
 ## 📦 Installation: Summon the Phantom
 
 ```bash
-git clone https://github.com/yourusername/GhostMentor.git
+git clone https://github.com/maruf009sultan/GhostMentor.git
+cd GhostMentor
 pip install numpy opencv-python pillow google-generativeai pygame pyaudio faster-whisper keyboard pywin32
 ```
 
