@@ -43,7 +43,7 @@ With stealth tech and AI wizardry, it delivers:
 | **Stealth Mode**       | Bypasses screen-sharing detection like a digital ghost.            |
 | **Real-Time Analysis** | Processes screens and speech faster than a proctor can blink.      |
 | **Dual Modes**         | Full mode (-f) for voice-driven power, silent mode (-s) for secret. |
-| **Elite Tech Stack**   | Gemini, Faster-Whisper, OpenCV, Pygame—pure cyberpunk magic.       |
+| **Elite Tech Stack**   | Gemini, Faster-Whisper, OpenCV, Pygame = magic.       |
 
 ---
 
@@ -76,7 +76,6 @@ With stealth tech and AI wizardry, it delivers:
 | :--------------------------------- | :-------------------- | :----------- |
 | No window/taskbar presence         | ✅                    | ❌           |
 | Disguisable process name/icon      | ✅                    | ❌           |
-| Registry + autorun support         | ✅                    | ⚠️ Manual    |
 | Zoom/Meet/screen recorder bypass   | ✅                    | ❌           |
 | Fully customizable .exe build      | ✅                    | ❌           |
 | Open-source                        | ✅                    | ❌           |
@@ -93,7 +92,7 @@ GhostMentor is for the **bold**, the **cunning**, the coders who **live on the e
 * 👨‍💻 **Crush Interviews:** Ace coding interviews with answers whispered in real-time, invisible to screen-sharing apps.
 * 👾 **Contest Phantom:** Dominate LeetCode or HackerRank with a silent mentor guiding every move.
 * 🧠 **Invisible Genius:** Get on-screen solutions for code, math, or UI—undetected, always.
-* 🔕 **Noisy or Silent:** From chaotic labs to proctored exams, GhostMentor adapts and delivers.
+* 🔕 **Noisy or Silent:** Has speech recognition or default prompt.
 
 ---
 
@@ -159,10 +158,6 @@ img_bytes = buffer.tobytes()
 response = model.generate_content(
     [{"mime_type": "image/png", "data": img_bytes}, prompt], stream=True)
 ```
-
-*Why It’s Badass:*
-Fuses vision and NLP to solve coding problems or analyze UI in milliseconds.
-
 ---
 
 ### ✅ Speech Buffering
@@ -177,10 +172,6 @@ if len(audio_buffer) * CHUNK_SIZE >= SAMPLING_RATE * BUFFER_DURATION:
     full_audio = np.concatenate(audio_buffer)
     segments, info = whisper_model.transcribe(full_audio, beam_size=5, language="en")
 ```
-
-*Why It’s Badass:*
-Cuts through noise to deliver crystal-clear commands in real-time.
-
 ---
 
 ### ✅ Screenshot Byte Compression
@@ -193,10 +184,6 @@ img_rgb = cv2.cvtColor(img_array, cv2.COLOR_BGR2RGB)
 _, buffer = cv2.imencode(".png", img_rgb)
 img_bytes = buffer.tobytes()
 ```
-
-*Why It’s Badass:*
-No lag, no fuzz, just raw speed.
-
 ---
 
 ### ✅ Anti-Overlap Logic
@@ -208,10 +195,6 @@ WDA_EXCLUDEFROMCAPTURE = 0x00000011
 ctypes.windll.user32.SetWindowDisplayAffinity(hwnd, WDA_EXCLUDEFROMCAPTURE)
 win32gui.SetWindowPos(hwnd, win32con.HWND_TOPMOST, 100, 100, 800, 200, 0)
 ```
-
-*Why It’s Badass:*
-GhostMentor stays in the shadows—undetectable and untouchable.
-
 ---
 
 ### ✅ Speech Transcription Safety Logic
@@ -223,10 +206,6 @@ segments, info = whisper_model.transcribe(full_audio, beam_size=5, language="en"
 if info.language_probability > 0.9:
     text = " ".join(segment.text for segment in segments).strip()
 ```
-
-*Why It’s Badass:*
-Reliable, even in chaotic battlefields.
-
 ---
 
 ### ✅ Async Gemini Handling
@@ -240,9 +219,6 @@ asyncio_thread.start()
 response = model.generate_content(
     [{"mime_type": "image/png", "data": img_bytes}, prompt], stream=True)
 ```
-
-*Why It’s Badass:*
-No lag, no freeze, just smooth operator performance.
 
 ---
 
@@ -283,7 +259,6 @@ pip install numpy opencv-python pillow google-generativeai pygame pyaudio faster
 
 ## 📜 GhostMentor Shadow License (GSL)
 
-GhostMentor isn’t your average open-source toy.
 It’s locked under the **GhostMentor Shadow License (GSL):**
 
 See `LICENSE.md` for the full spell.
@@ -300,7 +275,7 @@ Developers aren’t liable for misuse. Stay sharp, stay invisible.
 
 GhostMentor is for the **renegades**, the coders who **thrive in the dark**.
 Star ⭐ the repo, share with fellow shadow coders, and watch for updates.
-Got a killer idea? Open an issue or PR—only the bold survive.
+Got a killer idea? Open an issue or PR.
 
 ---
 
@@ -312,11 +287,11 @@ Got a killer idea? Open an issue or PR—only the bold survive.
 
 Crafted with tools that scream power:
 
-* **Gemini API:** Vision and reasoning that see your screen’s soul.
-* **Faster-Whisper:** Hears through the noise, even in chaos.
-* **OpenCV & PIL:** Pixel-perfect screen analysis.
-* **Pygame:** A HUD straight out of a cyberpunk fever dream.
-* **Win32 API:** Stealth tricks to keep you under the radar.
+* **Gemini API:** 
+* **Faster-Whisper:** 
+* **OpenCV & PIL:** 
+* **Pygame:** 
+* **Win32 API:** 
 
 ---
 
