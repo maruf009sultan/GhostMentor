@@ -47,6 +47,45 @@ With stealth tech and AI wizardry, it delivers:
 
 ---
 
+---
+
+# 🕷️ GhostMentor_Unethical.py — The Vanishing Act Module
+
+**Stealth beyond stealth.** For those who don’t want to be seen, even by the system itself.
+
+---
+
+## 🛠️ Ultra-Stealth Features
+
+* **🪞 No taskbar. No tabs. No traces.**
+* **🧟‍♂️ Mimics a system process** — rename to `NVIDIA_Service.exe`, `winlogon64.exe`, etc.
+* **🧰 Ready-to-build EXE via PyInstaller:**
+    ```bash
+    pyinstaller --noconfirm --onefile --windowed ghostmentor_unethical.py
+    ```
+* **🎭 Task Manager deception:**
+    * Custom process name + fake icon
+    * Registry startup persistence (`HKLM\...\Run`)
+    * Optional fake publisher or crash logs
+
+---
+
+## ⚔️ Why It Outclasses 99.9% “Stealth” Tools
+
+| Capability                         | GhostMentor_Unethical | Most Tools   |
+| :--------------------------------- | :-------------------- | :----------- |
+| No window/taskbar presence         | ✅                    | ❌           |
+| Disguisable process name/icon      | ✅                    | ❌           |
+| Registry + autorun support         | ✅                    | ⚠️ Manual    |
+| Zoom/Meet/screen recorder bypass   | ✅                    | ❌           |
+| Fully customizable .exe build      | ✅                    | ❌           |
+| Open-source                        | ✅                    | ❌           |
+
+---
+
+**Use it like a ghost. Build it like a weapon.**
+
+
 ## ✅ Use Cases: Rule the Underworld
 
 GhostMentor is for the **bold**, the **cunning**, the coders who **live on the edge**:
