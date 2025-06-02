@@ -50,7 +50,7 @@ With stealth tech and AI wizardry, it delivers:
 ---
 
 # 🕷️ GhostMentor_Unethical.py — The Vanishing Act Module
-
+(without speech recognition)
 **Stealth beyond stealth.** For those who don’t want to be seen, even by the system itself.
 
 ---
