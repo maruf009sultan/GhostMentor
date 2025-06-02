@@ -58,13 +58,10 @@ With stealth tech and AI wizardry, it delivers:
 ## 🛠️ Ultra-Stealth Features
 
 * **🪞  No taskbar. No tabs. No traces.**
-* **🧟‍♂️Room Mimics a system process** — rename to `NVIDIA_Service.exe`, `winlogon64.exe`, etc.
+* **🧟‍♂️Room for Mimic a system process** — rename to `NVIDIA_Service.exe`, `winlogon64.exe`, etc.
 * **🧰 Ready-to-build EXE via PyInstaller:**
     ```bash
-    pyinstaller --noconfirm --onefile --windowed ^
---name "NVIDIA_Service" ^
---icon "path/to/your/icon.ico" ^
-ghostmentor_unethical.py
+        pyinstaller --noconfirm --onefile --windowed --name "NVIDIA_Service" --icon "path/to/your/icon.ico" ghostmentor_unethical.py
     ```
 * **🎭 Task Manager deception:**
     * Custom process name + fake icon
