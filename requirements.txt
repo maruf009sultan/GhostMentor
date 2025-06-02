@@ -1,0 +1,7 @@
+numpy
+opencv-python
+pillow
+google-generativeai
+pygame
+pywin32
+keyboard
