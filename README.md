@@ -31,8 +31,6 @@ Watch the phantom code in motion — proof of GhostMentor’s stealth and power:
 
 ---
 
-**Note:** GitHub README doesn't support embedded video playback. Click the thumbnail above to open and watch the video file directly in your browser or media player.
-
 ## 🔥 Why Choose the Shadow?
 
 GhostMentor is your invisible partner, designed for those who **dare to dominate**.
