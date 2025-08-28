@@ -6,7 +6,7 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/maruf009sultan/GhostMentor)
 **Your shadow ally in the digital underworld.**
 
-An open-source solution inspired by [fuckleetcode](https://www.interviewcoder.co/), designed to give you the ultimate edge in coding battles without compromise.
+An open-source solution inspired by [f**kleetcode](https://www.interviewcoder.co/), designed to give you the ultimate edge in coding battles without compromise.
 
 ---
 
