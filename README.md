@@ -6,6 +6,8 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/maruf009sultan/GhostMentor)
 **Your shadow ally in the digital underworld.**
 
+👻 GhostMentor: Your AI-powered shadow coding assistant — an open-source experimental take inspired by f**kleetcode, crafted purely for learning, practice, and research. Not intended for cheating or rule-breaking, GhostMentor helps coders explore solutions, debug in real-time, and level up their skills safely.
+
 An open-source solution inspired by [f**kleetcode](https://www.interviewcoder.co/), designed to give you the ultimate edge in coding battles without compromise.
 
 ---
