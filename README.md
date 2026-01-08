@@ -11,7 +11,7 @@
 An open-source solution inspired by [f**kleetcode](https://www.interviewcoder.co/), designed to give you the ultimate edge in coding battles without compromise.
 
 ---
-
+NOTE: I NO LONGER HAVE A WINDOWS UNIT, SO UPDATES MAY BE DELAYED!!! :)
 GhostMentor isn’t just code—it’s a **rebellion**.
 A real-time HUD (Heads-Up Display) that **whispers solutions, cracks problems, and gives you the edge** in coding battles, interviews, and contests.
 Built with **Gemini API, Faster-Whisper, OpenCV, and Pygame**, it’s the ultimate tool for those who thrive in the shadows.
